@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/styles/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+ <main>
+    <h1 id="title"> Survey form </h1>
+     <div id="form-container">
+            <p id="description">
+                Let's be friend and tell me more about you.
+            </p>
+            <hr>
+            <form id="survey-form">
+              
+                <div class="row">
+                    <div class="left-label">
+                        <label id="name-label" for="name">*Name:</label>
+                    </div>
+                    <div class="right-tab">
+                        <input type="text" id="name" name="name" class="input-field" placeholder="Enter your name" required> 
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="left-label">
+                        <label id="age" for="age">*Date of birth:</label>
+                    </div>
+                    <div class="right-tab">
+                        <input type="text" id="age" name="age" class="input-field" placeholder="dd/mm/yyyy" required>
+                    </div>
+                </div> 
+
+                <div class="row">
+                    <div class="left-label">
+                        <label id="email-label" for="email">*Email:</label>
+                    </div>
+                    <div class="right-tab">
+                        <input type="text" id="email" name="email" class="input-field" placeholder="josh@example.com" required>
+                    </div>
+                </div> 
+
+                <div class="row">
+                    <div class="left-label">
+                        <label for="currentRole">What is your current role? </label>
+                    </div>
+                    <div class="right-tab">
+                        <select name="currentRole" name="currentRole" id="dropdown">
+                            <option value="graduated">Graduated</option>
+                            <option value="undergraduated">Undergraduated student</option>
+                            <option value="parttime">Part time Job</option>
+                            <option value="fulltime">Full time Job</option>
+                            <option value="selfpace">Full time Self-pace Learner</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="left-label">
+                        <label for="hobby">Tell me about your hobby:</label>
+                    </div>
+                    <div class="right-tab">
+                        <textarea id="comments" name="hobby" class="input-field" style="height:50px;resize:vertical"  placeholder="Write your hobby here..."></textarea>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="left-label">
+                        <label for="goal">What is your future goal?</label>
+                    </div>
+                    <div class="right-tab">
+                        <input type="checkbox" name="goal" value="haveajob"> Get a  job after graduation
+                        <br>
+                        <input type="checkbox" name="goal" value="study">Study for higher degrees
+                        <br>
+                        <input type="checkbox" name="goal" value="self-learn"> Become a developer
+                        <br>
+                        <input type="checkbox" name="goal" value="scientist"> Become a scientist
+                        <br>
+                        <input type="checkbox" name="goal" value="other"> Other
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="left-label">
+                        <label for="place"> Where do you plan to go for future study?</label>
+                    </div>
+                    <div class="right-tab">
+                        <input type="radio" name="place" value="staying"> Staying in my country
+                        <br>
+                        <input type="radio" name="place" value="studyabroad"> Studying abroad
+                        <br>
+                        <input type="radio" name="place" value="notdecide"> I have not decided yet
+                        <br>
+                        <input type="radio" name="place" value="noidea"> I have no idea
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="left-label">
+                        <label for="scaling">On a scale of 1 to 10, how do you rate your plans?</label>
+                    </div>
+                    <div class="right-tab">
+                        <input type="text" name="scaling" class="input-field" placeholder="0.0 - 10.0"> 
+                    </div>
+                </div>
+
+                <div class="row">
+                    <button id="button" type="submit"> Submit </button>
+                </div>
+
+            </form>
+     </div>
+
+    
+ </main>
+</body>
+</html>

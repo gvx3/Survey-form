@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #aa80cc;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div {
+    display: block;
+}
+
+#title {
+    font-size: 40px;
+    text-align: center;
+}
+
+#description {
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding: 20px 10px 10px 10px;
+}
+
+#survey-form {
+    display: block;
+    margin-top: 1em;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.input-field {
+    height: 30px;
+    width: 20em;
+}
+
+
+.left-label {
+    vertical-align: top;
+    text-align: right; 
+    width: 40%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.right-tab {
+   padding-top: 15px;
+   vertical-align: middle;
+   text-align: left;
+   padding-left: 2em;
+   width: 50%;
+   
+}
+
+#dropdown {
+   height: 30px;
+   width: 17em;
+
+}
+
+
+#form-container {
+    margin: auto;
+    width: 600px;
+    height: auto;
+    background: #efefef;
+    margin-top: 40px;
+}
+
+#button {
+    border: 0px solid;
+    padding: 10px;
+    color: white;
+    background-color: #444444;
+    border-radius: 4px;
+    margin: 10px;
+    width: 80px;
+    text-align: center;
+}
+
+#button:hover{
+    background-color: rgba(59, 16, 16, 0.5);
+}
+
+/*id for functions */
+
+
+/*id for functions */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
